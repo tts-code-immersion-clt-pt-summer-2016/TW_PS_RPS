@@ -46,9 +46,11 @@ while play
 			round = 0
 			play = true
 			puts "Ok, Let's Play again!"
-		else
+		elsif play_again == "No"
 			play = false
 			puts "OK, Good Bye!"
+		else
+			puts "Do you want to play again: Yes or No"
 		end
 	end
 	play_again = ""
